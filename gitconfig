@@ -31,3 +31,5 @@
 	editor = vim
 [branch]
 	autosetuprebase = always
+[push]
+	default = tracking
