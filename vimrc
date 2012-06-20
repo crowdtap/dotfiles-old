@@ -66,7 +66,13 @@ set mouse=a " allow mouse scrolling
 if filereadable(expand("custom.vim"))
   source custom.vim
 endif
+"
+"Yankring
+"
 
+nnoremap <C-y> :YRShow<cr>
+let g:yankring_history_dir = '$HOME/.vim'
+let g:yankring_manual_clipboard_check = 0
 
 "
 " NERDTree
